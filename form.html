@@ -14,7 +14,7 @@
     </div>
     <div class="form-cont">
         <h1>Details</h1>
-        <form class="main-form">
+        <form class="main-form" id="form">
             <div class="form-grp">
                 <!-- <div>
                     <label>Name</label>
@@ -30,50 +30,38 @@
                 </div> -->
                 <div>
                     <label>Operator name</label>
-                    <select>
-                        <option>Acetec Concepts Ltd</option>
-                        <option>Adenuga</option>
-                        <option>Barcelona</option>
-                        <option>Boldwings</option>
-                        <option>Chriss</option>
-                        <option>Eddy</option>
-                        <option>Helmut</option>
-                        <option>Kasta</option>
-                        <option>Nick</option>
-                        <option>Nigeria</option>
-                        <option>OAM Michael</option>
-                        <option>Peter</option>
-                        <option>Samound Plaza</option>
-                        <option>Ugo Big Lake</option>
+                    <select id="op-name" name="op-name">
+                        <option value="acetec">Acetec Concepts Ltd</option>
+                        <option value="adenuga">Adenuga</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="boldwings">Boldwings</option>
+                        <option value="chriss">Chriss</option>
+                        <option value="eddy">Eddy</option>
+                        <option value="helmut">Helmut</option>
+                        <option value="kasta">Kasta</option>
+                        <option value="nick">Nick</option>
+                        <option value="nigeria">Nigeria</option>
+                        <option value="oam">OAM Michael</option>
+                        <option value="peter">Peter</option>
+                        <option value="samound">Samound Plaza</option>
+                        <option value="ugo">Ugo Big Lake</option>
                     </select>
                 </div>
                 <div>
                     <label>Operator Id</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
+                    <select id="op-id" name="op-id">
                     </select>
                 </div>
                 <div>
                     <label>Site name</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
+                    <select id="site-name" name="site-name">
                     </select>
                 </div>
             </div>
             <div class="form-grp">
                 <div>
                     <label>Site Id</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
+                    <select id="site-id" name="site-id">
                     </select>
                 </div>
                 <!-- <div>
@@ -82,31 +70,19 @@
                 </div> -->
                 <div>
                     <label>Business Developer</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
+                    <select id="buss-dev" name="buss-dev">
                     </select>
                 </div>
                 <div>
                     <label>Location type</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
+                    <select id="loc-type" name="loc-type">
                     </select>
                 </div>
             </div>
             <div class="form-grp spread">
                 <div>
                     <label>State</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
+                    <select id="state" name="state">
                     </select>
                 </div>
                 <!-- <div>
@@ -115,41 +91,25 @@
                 </div> -->
                 <div>
                     <label>City</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
+                    <select id="city" name="city">
                     </select>
                 </div>
                 <div>
                     <label>Model</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
+                    <select id="model" name="model">
                     </select>
                 </div>
 
                 <div>
                     <label>Company share</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
+                    <select id="com-share" name="com-share">
                     </select>
                 </div>
             </div>
             <div class="form-grp">
                 <div>
                     <label>Id</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
+                    <select id="id" name="main-id">
                     </select>
                 </div>
                 <!-- <div>
@@ -158,40 +118,34 @@
                 </div> -->
                 <div>
                     <label>From</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                    </select>
+                    <!-- <select id="from">
+                    </select> -->
+                    <input type="date" name="from" id="from">
                 </div>
                 <div>
                     <label>Till</label>
-                    <select>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                        <option>Hotfun</option>
-                    </select>
+                    <!-- <select id="till">
+                    </select> -->
+                    <input type="date" name="till" id="till">
                 </div>
             </div>
             <div class="form-grp">
                 <div>
                     <label>In</label>
-                    <input type="text" name="name" id="name">
+                    <input type="number" name="in" id="name">
                 </div>
                 <div>
                     <label>Out</label>
-                    <input type="number" name="phone" id="phone">
+                    <input type="number" name="out" id="phone">
                 </div>
                 <div>
                     <label>In-Out</label>
-                    <input type="text" name="location" id="location">
+                    <input type="number" name="in-out" id="location">
                 </div>
             </div>
             <div class="single-form">
                 <label>Additional Notes</label>
-                <textarea id="note"></textarea>
+                <textarea id="note" name="note"></textarea>
             </div>
             <div class="single-form">
                 <label>Attachment(Optional)</label>
@@ -200,5 +154,27 @@
             <input type="submit" value="submit" id="submit">
         </form>
     </div>
+
+    <script src="index.js"></script>
+    //submit form to database
+    <script>
+        const form = document.getElementById('form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData);
+            console.log(data);
+            fetch('http://localhost:3000/api/v1/visits', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(res => res.json())
+            .then(data => console.log(data))
+            .catch(err => console.log(err))
+        })
+    </script>
 </body>
 </html>

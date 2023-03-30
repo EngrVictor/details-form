@@ -134,14 +134,14 @@ body {
     margin: 10px 0;
 }
 
-.form-grp input, select, input[type='file'], input[type='submit'] {
+.form-grp input, select, textarea, input[type='file'], input[type='submit'] {
     width: 100%;
     padding: 7px;
     border: 1px solid var(--color-dim);
     border-radius: 5px;
 }
 
-.form-grp input:focus, select:focus {
+.form-grp input:focus, select:focus, textarea:focus {
     outline: none;
     border: 1px solid var(--color-secondary);
 }
@@ -213,6 +213,7 @@ body {
 
     .form-grp div * {
         margin: 10px 0;
+        font-size: large;
     }
 
     .form-grp input, select, input[type='file'], input[type='submit'] {
@@ -231,5 +232,10 @@ body {
         display: flex;
         flex-direction: column;
         margin: 20px 0;
+    }
+
+    #submit, .small-nav a  {
+        padding: 30px;
+        font-size: large;
     }
 }
